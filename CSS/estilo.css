@@ -1,0 +1,2063 @@
+*{  
+    padding: 0;
+    margin: 0;
+    
+    --fondo:#000000  ;
+}
+
+
+
+body{
+font-family: 'Lexend', sans-serif;
+font-size: 1.6rem;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/*reutilizar*/
+
+.espacio-seccion{
+    margin-top: 3rem;
+    margin-bottom: 3rem;  
+}
+
+.imagen{
+    padding-top: 2.5rem;
+}
+
+.background .imagen img{
+    display: block;
+    height: auto;
+    width:100%;
+}
+
+
+
+.wave{
+    
+    padding-top: 65rem;
+    width: 100%;
+}
+
+
+
+/*navegador*/
+
+header{
+    background-color:var(--fondo);
+    width: 100%;
+    box-shadow: 0px 0px 10px #00000094;
+    position: fixed;
+    z-index: 100;
+    
+}
+
+nav.contenedor{
+    height: 7.5rem;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav .logo{
+    height: 5rem;
+}
+
+.logo img{
+    height: 100%;   
+}
+
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 3rem;
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+
+.hamburguesa{
+    height: 100%;
+    text-align: center;
+    display: none;
+}
+
+.hamburguesa img{
+    vertical-align: top;
+    padding: 2.3rem;
+}
+
+.enlaces a:hover{
+    color: #e6ff07;
+    font-weight: 300;
+}
+
+
+/*restaurantes*/
+
+.imagenes{
+    max-width: 150rem;
+    margin: auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.contenedor-imagenes-restaurantes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.contenedor-imagenes-restaurantes img{
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+}
+
+.imagen-restaurante{
+    background-color: #192b4f;
+    padding: 1rem;
+    margin: 1rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b3b3b3;
+    border-radius: 1rem;
+    
+}
+
+
+.texto{
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 400;
+    text-transform: uppercase; 
+    margin-top: 4rem;
+}
+
+.d-texto{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+/*contenido de restaurante*/
+
+.nombre-restaurante{
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 600;
+    padding: 2rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-bottom: #ffffff solid 1px;
+    margin: 0;
+
+}
+
+.n-r{
+    width: 30rem;
+    
+}
+
+.n-r h3{
+    font-size: 2.6rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.desc-restaurante{
+    text-align: center;
+    font-weight: 400;
+    padding: 1.2rem;
+    color: #ffffff;
+    margin: 0;
+
+}
+
+.enlace{
+    text-decoration: none;
+    display:flex;
+    display: block;
+    background-color: #c50000;
+    text-align: center;
+    color: #fafafa;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    margin-top: 2rem;
+    font-weight: 600;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    font-size: 1.7rem;  
+    transition: all 0.5s ease;
+}
+
+.conector-restaurantes{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.espacio{
+    margin-top: 5rem;
+}
+
+.todo{
+    background-color:#c50000;
+    color: #fff;
+    padding: 1.8rem 3rem 1.8rem 3rem ;
+    text-decoration: none;
+    font-size: 1.7rem; 
+    font-weight: 600; 
+    border-radius: 1rem;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    margin: 1rem 0;
+    
+}
+
+
+.todo:hover{
+    background-color:#8a0000 ;
+
+}
+
+.enlace:hover{
+    background-color:#8a0000 ;
+}
+
+/*seccion dos*/
+
+.back-dos{
+    background-image: url(../img/f2.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 70vh;
+}
+
+.mision h2 {
+    color: #ffffff;
+    font-size: 5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+    
+}
+
+.mision h3{
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 3rem;
+    
+}
+
+.mision{
+    text-align: center;
+    line-height: 2;
+}
+
+
+.back-dos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*cosas extra*/
+
+.contenedor-articulo{
+    max-width: 120rem;
+    margin: auto auto;
+}
+
+
+.dos-iconos{
+    display: flex;
+}
+
+.iconos-contenido{
+    justify-content: center;
+    align-items: center;
+}
+
+.iconos-contenido img{
+    width: 5rem;
+}
+
+
+.articulo{
+    max-width: 120rem;
+    margin: auto auto;
+    display: flex;
+
+    
+}
+
+.img-texto img{
+    width: 5rem;
+}
+
+.img-texto{
+    text-align: center;
+    justify-content: center;
+}
+
+/*seccion*/
+
+.servicios-extra{
+    max-width: 135rem;
+    margin: auto auto;
+    margin-top: 2rem;
+}
+
+.servicios-extra h2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 4.5rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+
+}
+.servicios-extra p{
+    text-align: center;
+    font-size: 2rem;
+    width: 90%;
+    margin: auto auto;
+    margin-bottom: 1.5rem;
+    
+}
+
+.servicio-extra h3{
+    text-align: center;
+    padding-top: 1rem;
+    font-weight: 600;
+}
+
+.servicio-extra img{
+    width: 13rem;
+    transition: 0.4s ;
+}
+
+.contenedor-cosas-extra{   
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;  
+}
+
+
+.servicio-extra{
+    text-align: center;
+    margin: 1rem;
+    background-color: #f2f2f2;
+    padding: 4rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 5px;
+    width: 17rem;
+    height: 20rem;
+   
+}
+
+.servicio-extra img:hover{
+    
+    transform: scale(1.1);
+}
+
+
+.enlace-nuevo{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.espacio{
+    margin: 2rem 0;
+}
+
+/*horario*/
+
+.horario{
+    padding-bottom: 4rem;
+    background-color: #f2f2f2;
+}
+
+.imagen-horario{
+    display: flex;
+}
+
+.imagen-horario img{
+    width: 25rem;
+    
+}
+
+.contenedor-horario{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80rem;
+    margin: auto auto;
+    margin-top: 6rem;
+}
+
+.horario-texto{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.horario h2{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 2.5rem;
+}
+
+.horario-texto h4{
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+.horario-texto p{
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+}
+
+/*footer*/
+
+.footer{
+   
+    background-color: #2a2a2a;
+}
+
+.nav-footer a{
+    color: #afafaf;
+    text-decoration: none;
+    margin-right: 3rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    transition: all 0.5s ease;
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+.contenido-footer{
+   display: flex;
+   padding: 3rem 0rem 6rem 0rem;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.nav-footer a:hover{
+    color: #fbfbfb;
+}
+
+.derechos{
+    color: #f2f2f2; 
+    padding-right: 2rem;
+}
+
+.derechos h3{
+    font-weight: 400;
+    color:#afafaf;
+}
+
+.contenedor-nosotros{
+    max-width: 120rem;
+    display: grid;
+    grid-template-columns: repeat(2, 45% 55%);
+    margin: auto auto;
+    padding-top: 10rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-nosotros img{
+    width: 85%;
+    padding-top: 3rem;
+}
+
+.letra-espacio{
+    padding-top: 1rem;
+    width: 100%;
+    margin: auto auto;
+}
+
+.letra-espacio p{
+    text-align: justify;
+    width: 93%;
+}
+
+.justificar p {
+    text-align: justify;
+}
+
+.alinear p{
+    text-align: justify;
+}
+
+/*contacto*/
+
+.justificar{
+    padding-top: 10rem;
+}
+
+.whatsapp{
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.cont-contacto{
+    margin: 0rem 5rem;    
+}
+
+.whatsapp .cont-contacto img{
+    width: 9rem;
+    margin: auto auto;
+    padding: 1rem; 
+    transition: 0.3s ease all;
+}
+
+.cont-contacto img:hover{
+    transform: scale(1.1);
+    
+}
+
+.whatsapp h2{
+    font-weight: 300;
+    font-size: 1.7rem;
+    padding-left: 0.8rem;
+}
+
+.formulario{
+    display: flex;
+    max-width: 140rem;
+    margin: 10rem auto 10rem auto;
+}
+
+.formulario h2{
+    margin-top: 0;
+}
+
+.formulario p{
+    width: 90%;
+    margin: 3.5rem auto 3.5rem auto;
+}
+
+.imagen-formulario img{
+    width: 100%;
+}
+
+/* botones de wasap */
+
+
+.boton-wasap a img{
+    width: 5.5rem;
+    position: fixed;
+    right: 0;
+    padding: 1rem;
+    bottom: 0;
+}
+
+.boton-wasap-dos a img{
+    width: 5.5rem;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+    padding-bottom: 15rem;
+    
+    
+}
+
+.boton-wasap-tres a img{
+    width: 5.5rem;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+    padding-bottom: 8rem;
+    
+}
+ 
+
+@media screen and (max-width:4000px){
+     .back-dos{
+         height: 38vh;
+     }
+
+     .cont-contacto h2{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:1600px){
+      .back-dos{
+          height: 70vh;
+      }
+
+      .cont-contacto h2{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:1400px){
+
+    .cont-contacto h2{
+        margin: 0;
+    }
+
+    .imagen-restaurante{
+        width: 20%;
+    }
+
+    .imagen-restaurante img{
+        width: 100%;
+        height: 25rem;
+    }
+
+    .nombre-restaurante{
+        font-size: 2rem;
+        padding: 1.3rem 0;
+    }
+
+    .desc-restaurante{
+        font-size: 1.3rem;
+    }
+
+    .imagen-restaurante a{
+        font-size: 1.5rem;
+    }
+
+    .n-r{
+        width: 99%;
+    }
+
+    .n-r h3{
+        font-size: 2rem;
+        padding: 1.3rem 2rem;
+    }
+
+    .servicios-extra{
+        width: 80%;
+    }
+
+    .imagenes{
+        max-width: 160rem;
+    }
+
+    .mision h2{
+        font-size: 3.7rem;
+    }
+
+    .mision h3{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:1300px){
+
+    .formulario h2{
+        margin-top: 0;
+    }
+
+    .formulario p{
+        width: 90%;
+        margin: 2rem auto auto;
+        text-align: justify;
+    }
+
+    .imagen-restaurante img{
+        height: 25rem;
+    }
+
+    .nombre-restaurante{
+        font-size: 1.8rem;
+    }
+
+    .n-r h3{
+        font-size: 1.8rem;
+        padding: 1.3rem 1.8rem;
+    }
+
+    .cont-contacto h2{
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width:1200px){
+    .n-r h3{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .mision h2{
+        font-size: 3.5rem;
+        width: 80%;
+        margin: auto auto;
+    }
+
+    .mision h3{
+        font-size: 2.1rem;
+    }
+
+    .texto-nosotros{
+        padding-right: 2rem;
+    }
+
+    .cont-contacto h2{
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width:1100px){
+
+    .cont-contacto h2{
+        margin: 0;
+    }
+
+    .formulario{
+        width: 80%;
+        display: block;
+    }
+
+    .imagen-formulario{
+        width: 50%;
+        margin: auto auto;
+        padding-top: 3rem;
+    }
+
+    .contenedor-nosotros{
+        display: block;  
+        padding: 3.5rem; 
+       
+    }
+
+    .contenedor-nosotros .img-nosotros {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .texto-nosotros{
+        padding-right: 0;
+    }
+
+}
+
+@media screen and (max-width:1000px){
+
+    .cont-contacto h2{
+        margin: 0;
+    }
+    .imagen-restaurante img{
+        height: 18rem;
+    }
+
+    .nombre-restaurante{
+        font-size: 1.6rem;
+        padding: 1rem;
+    }
+
+    .n-r h3{
+        font-size: 1.6rem;
+        padding: 1rem 1rem;
+    }
+
+    .desc-restaurante{
+        font-size: 1.3rem;
+    }
+
+    .imagen-restaurante a{
+        font-size: 1.3rem;
+    }
+
+    .mision h2{
+        width: 80%;
+        margin: auto auto;
+        font-size: 3.5rem;
+    }
+
+    .mision h3{
+        font-size: 2rem;
+    }
+
+    .formulario{
+        display: block;
+        width: 80%;
+
+    }
+
+    .imagen-formulario img{
+        width: 100%;
+        padding-top: 3rem 0 0 0;
+    }
+
+    .imagen-formulario{
+        width: 50%;
+        margin: auto auto;
+        
+    }
+
+}
+
+@media screen and (max-width:900px){
+
+    .cont-contacto h2{
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+    .servicio-extra{
+        
+        height: 20rem;
+    }
+
+    .servicio-extra img{
+        width: 80%;
+    }
+
+    .background .imagen img{
+        margin-top: 3rem;
+    }
+
+    nav.contenedor{
+        height: 6rem;
+    }
+
+
+    .texto{
+        font-size: 4rem;
+    }
+
+    .d-texto{
+        width: 85%;
+        margin: 2rem auto 2rem auto;
+        font-size: 2.2rem;
+    }
+
+    .mision h2{
+        font-size: 3.2rem;
+        width: 85%;
+        margin: 0rem auto 2rem auto;
+    }
+
+    .mision h3{
+        font-size: 2rem;
+    }
+
+    .servicios-extra p{
+        width: 85%;
+        margin: auto;
+        margin-bottom: 2rem;
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .servicios-extra h2{
+        font-size: 4rem;
+    }
+
+    .contenedor-cosas-extra{
+        width: 85%;
+        margin: auto auto;
+    }
+
+    .logo img{
+        width: 14rem;
+        height: 4.3rem;
+        padding-top: 0.5rem;
+    }
+    
+    .hamburguesa{
+            display: block;
+    }
+    
+    .hamburguesa img{
+        width: 3rem;
+        padding: 1.5rem 0 0 0;
+    }
+    
+    .imagen{
+        padding-top: 3rem;
+    }
+    
+    .enlaces{
+        position: fixed;
+        background-color:var(--fondo);
+        left: 0;
+        top: 5.9rem;
+        width: 75%;
+        height: 70rem;
+        display: flex;
+        padding-top: 10rem;
+        align-items: center;
+        flex-direction: column;
+        transform: translateX(-100%);
+    }
+    
+    .enlaces a{
+        margin-bottom: 10rem;   
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+    
+    .enlaces a:hover{
+        color: #ffee07;
+    }
+    
+    .enlaces2{
+        transform: translateX(0%);
+    }
+    
+    
+    .enlaces a{
+        margin-right: 0;
+    }
+
+    .imagen-restaurante{
+        width: 33%;
+    }
+
+    .imagen-restaurante img{
+        width: 100%;
+        height: 30rem;
+        overflow: hidden;
+    }
+
+    .nombre-restaurante{
+        font-size: 2.2rem;
+        padding: 1rem 0;
+    }
+
+    .desc-restaurante{
+        font-size: 1.7rem;
+    }
+
+    .imagen-restaurante a{
+        font-size: 1.5rem;
+    }
+
+    .enlace{
+        margin-top: 1rem;
+    }
+
+    .horario h2{
+        font-size: 4rem;
+    }
+
+    .contenedor-horario{
+        width: 85%;
+        text-align: center;
+    }
+
+    .contenedor-horario h4{
+        font-size: 2.5rem;
+    }
+
+    .back-dos{
+        height: 40rem;
+    }
+    
+    .contenido-footer{
+        align-items: center;
+        padding: 0;
+        justify-content: center;
+        display: block;
+    }
+
+    .nav-footer a{
+        display: block;
+        padding: 2rem;
+        margin: 0;
+        text-align: center;
+    }
+
+    .derechos h3{
+        text-align: center;
+        padding: 1rem 1rem 2rem 1rem;
+        
+    }
+
+    .derechos{
+        padding: 0;
+    }
+
+    .n-r h3{
+        font-size:2.2rem ;
+        padding: 1rem 0;
+    }
+
+    .n-r{
+        width: 80%;
+        margin: auto auto;
+    }
+
+
+
+}  
+
+@media screen and (max-width:800px){
+    .imagen-restaurante{
+        width: 39%;
+    }
+
+    .imagen-restaurante img{
+        width: 100%;
+        height: 28rem;
+        overflow: hidden;
+    }
+
+    .nombre-restaurante{
+        font-size: 2.2rem;
+    }
+
+    .imagen-restaurante a{
+        font-size: 1.5rem;
+    }
+
+    .enlace{
+        margin-top: 1rem;
+    }
+
+    .n-r h3{
+        font-size: 2.2rem;
+    }
+
+    .servicios-extra{
+        width: 100%;
+    }
+
+    .servicio-extra{
+        padding: 2.8rem;
+        width: 30%;
+        height: auto;
+    }
+
+    .servicio-extra h3{
+        font-weight: 300;
+    }
+
+    .cont-contacto{
+        margin: 2rem;
+    }
+
+    .formulario{
+       
+        margin: 3rem auto auto;
+    }
+}
+
+@media screen and (max-width:700px){
+
+    .servicios-extra{
+        width: 100%;
+    }
+
+    .servicio-extra{
+        width: 35%;
+        padding: 2.5rem;
+        height: auto;
+    }
+
+    .servicio-extra h3{
+        font-weight: 300;
+    }
+    .imagen-restaurante{
+        width: 40%;
+    }
+
+    .imagen-restaurante img{
+        width: 100%;
+        height: 25rem;
+        overflow: hidden;
+    }
+
+    .nombre-restaurante{
+        font-size: 1.9rem;
+    }
+
+    .imagen-restaurante a{
+        font-size: 1.5rem;
+    }
+
+    .enlace{
+        margin-top: 1rem;
+    }
+
+    .horario h4{
+        font-size: 2.2rem;
+    }
+
+    .n-r{
+        width: 85%;
+    }
+
+    .n-r h3{
+        font-size: 1.9rem;
+    }
+
+    .img-nosotros img{
+        width: 80%;
+        height: 80%;
+        margin: auto auto;
+    }
+
+    .cont-contacto h2{
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    .cont-contacto{
+        margin: 2rem;
+    }
+
+    .whatsapp .cont-contacto img{
+        padding: 1rem;
+    }
+
+    .justificar{
+        width: 80%;
+        margin: auto auto;
+    }
+}
+
+@media screen and (max-width:600px){
+
+    .texto{
+        font-size: 3.7rem;
+    }
+
+    .d-texto{
+        font-size: 2rem;
+    }
+
+    .mision h2{
+        font-size: 2.8rem;
+    }
+
+    .mision h3{
+        font-size: 1.8rem;
+    }
+
+    .contenedor-horario{
+        width: 90%;      
+    }
+
+    .horario img{
+        width: 20rem;
+    }
+
+    .horario h4{
+        font-size: 2rem;
+    }
+
+    .mision h3{
+        width: 90%;
+        margin: auto;
+        padding-bottom: 1.5rem;
+    }
+
+    
+
+    .imagen-restaurante img{
+        width: 100%;
+        height: 23rem;
+        overflow: hidden;
+    }
+
+    .nombre-restaurante{
+        font-size: 2rem;
+        
+    }
+
+    .imagen-restaurante a{
+        font-size: 1.5rem;
+    }
+
+    .desc-restaurante{
+        font-size: 1.3rem;
+    }
+
+    .enlace{
+        margin-top: 1rem;
+    }
+
+    .n-r{
+        width: 100%;
+        
+    }
+
+    .n-r h3{
+        font-size: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .servicios-extra{
+       margin: auto;
+       width: 100%;
+    }
+
+    .servicios-extra h2{
+        font-size: 3.7rem;
+    }
+
+    .servicios-extra p{
+        font-size:2rem;
+    }
+
+    .servicio-extra{
+        width: 35%;
+        padding: 2rem;
+        padding-top: 2.5rem;
+        height: auto;
+    }
+
+    .servicio-extra h3{
+        font-weight: 300;
+        font-size: 1.s6rem;
+    }
+
+    .cont-contacto{
+        margin-right:3rem ;
+    }
+
+    .cont-contacto a img{
+        width: 7rem;
+        
+    }
+
+    .formulario{
+        margin-top: 0;
+        margin-bottom: 3rem;
+    }
+
+    .whatsapp{
+        margin-bottom: 4rem;
+    }
+
+    .whatsapp .cont-contacto img{
+        width: 7rem;
+        padding-left: 2rem;
+    }
+
+    .cont-contacto h2{
+        padding-left: 0.5rem;
+    }
+
+
+    .justificar{
+        padding-top: 4rem;
+    }
+
+    .cont-contacto{
+        margin: 2rem;
+    }
+
+    .whatsapp .cont-contacto img{
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:588px){
+
+    .boton-wasap a img{
+        width: 5.5rem;
+    }
+
+    .boton-wasap-dos a img{
+        width: 5.5rem;
+        
+    }
+
+    .boton-wasap-tres a img{
+        width: 5.5rem;
+        
+    }
+
+    .imagen-restaurante img{
+        height: 20rem;
+    }
+
+    .nombre-restaurante{
+        font-size: 1.8rem;
+    }
+
+    .n-r h3{
+        font-size: 1.8rem;
+        padding: 1rem 0;
+    }
+
+    .enlaces a{
+        font-size: 1.8rem;
+        margin-bottom: 10rem;
+    }
+
+    .cont-contacto{
+        margin: 2rem;
+    }
+
+    .whatsapp .cont-contacto img{
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:500px){
+
+    .boton-wasap a img{
+        width: 5rem;
+    }
+
+    .boton-wasap-dos a img{
+        width: 5rem;
+        
+    }
+
+    .boton-wasap-tres a img{
+        width: 5rem;
+        
+    }
+    
+    .justificar{
+        padding-top: 3rem;
+    }
+    
+      .texto{
+          font-size: 3.3rem;
+      }
+
+      .d-texto{
+          font-size: 1.8rem;
+      }
+
+      .contenedor-cosas-extra{
+          margin: auto auto;
+      }
+
+      .servicios-extra h2{
+          font-size: 3.3rem;
+      }
+
+      .servicios-extra p{
+          font-size: 1.8rem;
+      }
+
+      .servicios-extra{
+          width: 100%;
+      }
+
+
+      .servicio-extra{
+          width: 35%;
+          height: auto;
+      }
+
+      .servicio-extra h3{
+          font-size: 1.5rem;
+          font-weight: 300;
+      }
+
+      .servicio-extra img{
+        width: 80%;
+      }
+
+      .contenedor-horario{
+          display: block;
+          margin-top: 3.5rem;
+      }
+
+      .imagen-horario img{
+          margin: auto auto;
+          padding-bottom: 2rem;
+      }
+
+      .cont-contacto{
+          margin: 2rem;
+      }
+
+      .whatsapp .cont-contacto img{
+          padding: 1rem;
+      }
+}
+
+
+@media screen and (max-width:430px){
+
+    .cont-contacto{
+        margin: 0.5rem;
+    }
+
+    .whatsapp{
+        flex-wrap: wrap;
+    }
+
+    .boton-wasap a img{
+        width: 5rem;
+    }
+
+    .boton-wasap-dos a img{
+        width: 5rem;
+        
+    }
+
+    .boton-wasap-tres a img{
+        width: 5rem;
+       
+    }
+
+.contenedor .logo img{
+        width: 10rem;
+        height: 3.5rem;
+        padding-top: 0.8rem;
+    }
+
+nav.contenedor{
+        height: 5.2rem;
+    }
+    
+
+.hamburguesa{
+        display: block;
+    }
+
+    .hamburguesa img{
+    width: 2.5rem;
+    padding: 1.5rem 0 0 0 ;
+}
+
+.imagen{
+    padding-top: 2rem;
+}
+
+.enlaces{
+    position: fixed;
+    background-color: #000000;
+    left: 0;
+    top: 5rem;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    padding-top: 10rem;
+    align-items: center;
+    flex-direction: column;
+    transform: translateX(-100%);
+}
+
+.enlaces a{
+    margin-bottom: 8rem;   
+}
+
+.enlaces a:hover{
+    color: #ffee07;
+}
+
+.enlaces2{
+    transform: translateX(0%);
+}
+
+
+.enlaces a{
+    margin-right: 0;
+}
+
+
+.texto{
+        font-size: 3.5rem;
+    }
+
+    
+
+.restaurantes .d-texto{
+        font-size: 2rem;
+        width: 80%;
+        margin: 2rem auto;
+    }
+
+    .imagen-restaurante{
+        width: 67%;
+        
+    }
+     
+
+.imagen-restaurante img{
+        width: 100%;
+        height: 27rem;
+        overflow: hidden;
+    }
+
+.nombre-restaurante{
+        font-size: 2.5rem;
+        padding: 1rem 0;
+    }
+
+    .n-r h3{
+        font-size: 2.7rem;
+        padding: 1rem 0;
+    }
+
+    .desc-restaurante{
+        font-size: 1.7rem;
+    }
+
+    .imagen-restaurante a{
+        font-size: 1.5rem;
+    }
+
+
+.enlace{
+        margin-top: 1rem;
+    }
+
+.mision h2{
+        font-size: 2.5rem;
+        width: 70%;
+        margin: auto;
+    }
+
+.mision h3{
+        font-size: 1.8rem;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 3rem;
+    }
+
+.servicio-extra{
+        width:  60%;
+        height: 20rem;
+        padding: 1rem;
+        align-items: center;
+    }
+
+.servicios-extra h2{
+        font-size: 3.5rem;
+    }
+
+.servicio-extra h3{
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
+.servicio-extra img{
+        width: 50%;
+        padding-top: 2rem;
+        
+    }
+
+.servicios-extra p{
+        font-size: 2rem;
+    }
+
+.horario h3{
+        font-size: 3.5rem;
+    }
+
+.contenedor-horario{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+.contenedor-horario img{
+        margin: auto auto;
+    }
+
+.horario-texto{
+        margin: 3rem 4rem 0 4rem ;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width:400px){
+
+    .boton-wasap a img{
+        width: 5rem;
+    }
+
+    .boton-wasap-dos a img{
+        width: 5rem;
+        
+    }
+
+    .boton-wasap-tres a img{
+        width: 5rem;
+        
+    }
+
+    .contenedor-horario{
+        width: 95%;
+    }
+
+    .contenedor-horario h4{
+        font-size: 1.8rem;
+    }
+
+    .texto{
+        font-size: 2.5rem;
+    }
+
+    .d-texto{
+        font-size: 1.5rem;
+    }
+
+
+    .desc-restaurante{
+        font-size: 1.7rem;
+    }
+
+    .mision h2{
+        font-size: 2.2rem;
+        text-align: center;
+        width: 85%;
+    }
+
+    .mision h3{
+        font-size: 1.5rem;
+    }
+
+    .mision a{
+        font-size: 1.1rem;
+    }
+
+    .servicios-extra h2{
+        font-size: 3rem;
+    }
+
+    .servicios-extra p{
+        font-size: 1.7rem;
+        width: 85%;
+    }
+
+    .contenedor-cosas-extra{
+        width: 95%;
+    }
+
+    .servicio-extra{
+        width: 17rem;
+        height: 19rem;
+    }
+
+    .servicios-extra h3{
+        font-weight: 500;
+        font-size: 1.7rem;
+        margin: 0;
+        padding: 0.5rem;
+    }
+
+    .horario h2{
+        font-size: 3rem;
+    }
+    .horario-texto{
+        width: 100%;
+        margin:  auto auto;
+        padding-top: 2rem;
+        
+    }
+
+    .horario-texto p{
+        margin-bottom: 2.8rem;
+    }
+
+    .horario-texto h4{
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .imagen-restaurante a{
+        font-size: 1.4rem;
+    }
+
+    .imagen-restaurante{
+        width: 66%;
+        
+    }
+
+    .nombre-restaurante{
+        font-size: 2.1rem;
+        padding: 1.2rem 0;
+    }
+
+    .n-r h3{
+        font-size: 2.1rem;
+        padding: 1.2rem 0;
+    }
+
+    .desc-restaurante{
+        font-size: 1.6rem;
+    }
+
+    .conector-restaurantes a{
+        font-size: 1.2rem;
+    }
+     
+
+    .imagen-restaurante img{
+        width: 100%;
+        height: 23rem;
+        overflow: hidden;
+    }
+
+    nav.contenedor{
+        height: 4.9rem;
+    }
+
+    .contenedor .logo img{
+        width: 8rem;
+        height: 2.8rem;
+        padding-top: 1.2rem;
+    }
+
+    .hamburguesa img{
+        width: 2.5rem;
+        padding: 1.1rem 0;
+    }
+
+    .background .imagen img {
+        margin-top: 0rem;
+        padding-top: 2.5rem;
+    }
+
+    .enlaces{
+        top: 4.1rem;
+    }
+
+    .enlaces a{
+        font-size: 1.6rem;
+    }
+
+    .whatsapp .cont-contacto img{
+        width: 6rem;
+        padding-left: 1rem;
+    }
+
+    .cont-contacto h2{
+        padding-left: 0.5rem;
+        font-size: 1.4rem;
+    }
+
+    .whatsapp .cont-contacto img:last-of-type{
+        margin-right: 0;
+    }
+
+    .justificar{
+        padding-top: 3rem;
+    }
+
+
+    .whatsapp{
+        display: block;
+        justify-content: center;
+        width: 100%;
+        margin: 3rem auto 3rem auto;
+    }
+
+    .cont-contacto{
+        display: flex;
+        align-items: center;
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (max-width:300px){
+
+
+    .whatsapp{
+        display: block;
+        width: 100%;
+        margin: auto auto;
+
+    }
+
+    .cont-contacto{
+        margin-right: 0;
+        margin-bottom: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .whatsapp .cont-contacto img{
+        width: 5rem;
+        padding: 0;
+    }
+
+    
+
+    .justificar{
+        padding-top: 3rem;
+    }
+
+    .justificar h2{
+        padding-bottom: 2rem;
+        font-size: 2.5;
+    }
+
+
+    .imagen-restaurante{
+        width: 70%;
+    }
+
+    .imagen-restaurante img{
+        width: 100%;
+        height: 20rem;
+    }
+
+    .nombre-restaurante{
+        font-size: 2rem;
+    }
+
+    .desc-restaurante{
+        font-size: 1.6rem;
+    }
+
+    .n-r h3{
+        font-size: 2rem;
+        padding: 2rem;
+    }
+
+    .restaurantes .texto{
+        font-size: 2.5rem;
+    }
+
+    .cont-contacto{
+        margin: 2rem;
+    }
+
+    .cont-contacto h2{
+        font-size: 1.5rem;
+        padding: 0;
+    }
+
+    .whatsapp .cont-contacto img{
+        padding: 1rem;
+    }
+
+}
+
+@media screen and (max-width:265px){
+
+    .whatsapp .cont-contacto img{
+        width: 4.5rem;
+        padding: 0;
+        margin: auto;
+        padding-left: 1.5rem;
+    }
+
+    .cont-contacto {
+        width: 100%;
+        margin: auto;
+        padding-bottom: 2rem;
+        align-items: center;   
+    }
+
+    .cont-contacto h2{
+        padding: 0rem;
+    }
+
+    .texto{
+        font-size: 2.5rem;
+    }
+
+    .d-texto{
+        font-size: 1.5rem;
+    }
+
+    .imagen-restaurante img{
+        height: 18rem;
+    }
+
+    .nombre-restaurante{
+        font-size: 1.8rem;
+    }
+
+    .conector-restaurantes a{
+        font-size: 1rem;
+        padding: 1rem;
+        text-align: center;
+        padding:1.2rem 0.8rem;
+    }
+
+    .imagen-restaurante a{
+        font-size: 1.2rem;
+    }
+
+    .n-r h3{
+        font-size: 1.8rem;
+        padding: 1rem 0;
+    }
+}
+
+@media screen and (max-width:230px){
+    .imagen-restaurante{
+       width: 70%;
+    }
+
+    .imagen-restaurante img{
+        height: 15rem;
+    }
+
+    .texto{
+        font-size: 2rem;
+    }
+
+
+    .d-texto{
+        font-size: 1.5rem;
+    }
+
+    .nombre-restaurante{
+        font-size: 1.7rem;
+        padding: 1.5rem;
+    }
+
+    .desc-restaurante{
+        font-size: 1.2rem;
+    }
+
+    .imagen-restaurante a{
+        
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .conector-restaurantes{
+        width: 50%;
+        margin: auto auto;
+    }
+
+    .conector-restaurantes a{
+        font-size: 1rem;
+        padding: 1rem;
+        text-align: center;
+        padding:1.2rem 0.8rem;
+    }
+
+    .mision{
+        width: 95%;
+    }
+
+    .mision h2{
+        font-size: 1.7rem;
+    }
+
+    .mision h3{
+        font-size: 1.5rem;
+    }
+
+    .mision a{
+        font-size: 1.1rem;
+        padding: 1rem;
+    }
+
+    .servicio-extra{
+        height: 18rem;
+    }
+
+    .servicios-extra h2{
+        font-size: 2rem;
+    }
+
+    .servicios-extra p{
+        font-size: 1.5rem;
+        text-align:center;
+    }
+
+    .enlace-nuevo a{
+        font-size: 1.1rem;
+        padding: 1rem;
+        margin-top: 0;
+    }
+
+    .imagen-horario img{
+        width: 80%;
+    }
+
+    .horario h2{
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+
+    .contenedor-horario{
+        margin-top: 2rem;
+    }
+
+    .horario-texto{
+        width: 90%;
+        margin: 2rem auto auto;
+    }
+
+    .horario-texto h4{
+        font-size: 1.5rem;
+    }
+
+
+    .horario-texto p{
+        font-size: 1.4rem;
+    }
+
+    .nav-footer a{
+        font-size: 1.4rem;
+    }
+
+    .derechos h3{
+        font-size: 1.4rem;
+    }
+
+    .hamburguesa img{
+        width: 2rem;
+    }
+
+    .contenedor .logo img{
+        width: 7rem;
+        height: 2.5rem;
+        padding-top: 1.2rem;
+    }
+
+    nav .contenedor{
+        height: 2rem;
+    }
+
+    .whatsapp{
+        width: 85%;
+    }
+
+    .whatsapp .cont-contacto img{
+        padding: 0;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
